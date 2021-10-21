@@ -3,8 +3,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 343
-    length: 27
+  - offset: 361
+    length: 15
     placeholder_text: '...  # TODO вызвать функцию'
     initial_state:
       length: 27

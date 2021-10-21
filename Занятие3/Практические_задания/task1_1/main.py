@@ -6,9 +6,10 @@ def add_func(a, b):
 
     # чтобы вернуть результат нужно использовать ключевое слово return
     return add
+    # return None
 
 
 if __name__ == "__main__":
-    result = ...  # TODO вызвать функцию
+    result = add_func(5, 10)
 
     print(result)
