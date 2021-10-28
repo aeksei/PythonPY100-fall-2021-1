@@ -35,10 +35,17 @@ def main():
             print("Ничья")
             break
 
+
+
     print("Игра закончена")
 
 
 def print_field(field) -> None:
+    """
+
+    :param field:
+    :return:
+    """
     for row in field:
         for ceil in row:
             print(ceil, end="")
@@ -78,6 +85,8 @@ def get_step(player_symbol: str) -> tuple[int, int]:
         if not 1 <= y <= 3:
             print("Неверная координата y")
             continue
+
+        # todo проверка перезаписи хода
 
         return x-1, y-1
 
